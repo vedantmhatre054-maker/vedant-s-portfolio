@@ -1,16 +1,25 @@
-# React + Vite
+## GitHub Repository URL :-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://github.com/vedantmhatre054-maker/vedant-s-portfolio
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Website URL :-
 
-## React Compiler
+https://vedant-s-portfolio-eight.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Brief Explanation of Additional Features Implemented
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio website was developed using React.js and Vite to showcase my skills, projects, and learning journey. To enhance user experience, I integrated a Google Gemini AI Assistant that provides AI-powered responses to user queries. The website also includes multiple themes (Light, Dark, Blue, and Purple) and a custom Developer Skill Trail cursor effect for an interactive experience.
+
+The Projects section features project cards with images, descriptions, technology stacks, and GitHub links. A resume download option, responsive design for multiple devices, GitHub version control, and Vercel deployment with automatic updates were also implemented.
+
+Additional Features:
+• Google Gemini AI Assistant
+• Multiple Theme Options
+• Developer Skill Trail Cursor Effect
+• Project Showcase Cards with GitHub Links
+• Resume Download Feature
+• Responsive Design
+• GitHub Integration
+• Vercel Deployment
