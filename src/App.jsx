@@ -9,7 +9,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import ChatBot from "./components/ChatBot";
-import SkillTrail from "./components/SkillTrail";
+
 
 import "./App.css";
 
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className={`${theme}-theme`}>
-      <SkillTrail />
+    
       <BrowserRouter>
         <Navbar
           theme={theme}

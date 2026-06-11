@@ -1,43 +1,43 @@
 function Skills() {
   const skills = [
     {
-      icon: "☕",
+      icon: "",
       title: "Java",
       desc: "Core Java, OOP, Collections"
     },
 
     {
-      icon: "⚛",
+      icon: "",
       title: "React",
       desc: "Components, Routing, Hooks"
     },
 
     {
-      icon: "📱",
+      icon: "",
       title: "Flutter",
       desc: "UI Development, Firebase"
     },
 
     {
-      icon: "💻",
+      icon: "",
       title: "JavaScript",
       desc: "ES6, DOM, APIs"
     },
 
     {
-      icon: "🔧",
+      icon: "",
       title: "Git",
       desc: "Version Control"
     },
 
     {
-      icon: "🐙",
+      icon: "",
       title: "GitHub",
       desc: "Repositories & Collaboration"
     },
 
     {
-      icon: "🖥",
+      icon: "",
       title: "VS Code",
       desc: "Development Environment"
     }

@@ -1,71 +1,73 @@
 function About() {
   return (
     <div className="page">
-
       <h1>About Me</h1>
 
-      <p>
-        I am a B.Tech Computer Science student passionate about Java Development,
-        Flutter Development, Web Development and Problem Solving.
-        I enjoy building real-world software projects and continuously improving
-        my technical skills.
+      <p className="about-intro">
+        I am a B.Tech Computer Science student passionate about software
+        development, problem solving, and building real-world applications using
+        Java, React, and Flutter.
       </p>
 
-      <br />
+      <div className="about-grid">
 
-      <h2>🚀 Current Learning</h2>
-      <ul>
-        <li>Data Structures & Algorithms (Java)</li>
-        <li>React.js Development</li>
-        <li>AI Integration</li>
-        <li>Advanced Java Programming</li>
-        <li>Full Stack Development Concepts</li>
-      </ul>
+        <div className="about-card">
+          <h3>Education</h3>
+          <p>B.Tech in Computer Science</p>
+          <p>Focused on Software Development and Problem Solving.</p>
+        </div>
 
-      <br />
+        <div className="about-card">
+          <h3>Current Focus</h3>
+          <ul>
+            <li>Data Structures & Algorithms</li>
+            <li>React Development</li>
+            <li>Advanced Java</li>
+            <li>AI Integration</li>
+          </ul>
+        </div>
 
-      <h2>💡 Areas of Interest</h2>
-      <ul>
-        <li>Software Development</li>
-        <li>Mobile Application Development</li>
-        <li>Artificial Intelligence</li>
-        <li>Web Technologies</li>
-        <li>Stock Market Technology</li>
-        <li>Problem Solving</li>
-      </ul>
+        <div className="about-card">
+          <h3>Technologies</h3>
+          <ul>
+            <li>Java</li>
+            <li>React</li>
+            <li>Flutter</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
 
-      <br />
+        <div className="about-card">
+          <h3>Achievements</h3>
+          <ul>
+            <li>Built 5+ Projects</li>
+            <li>AI Powered Portfolio</li>
+            <li>Strong OOP Foundation</li>
+            <li>Active DSA Learner</li>
+          </ul>
+        </div>
 
-      <h2>🏆 Highlights</h2>
-      <ul>
-        <li>Built 5+ Personal Projects</li>
-        <li>Developed a Gemini AI-Powered Portfolio</li>
-        <li>Experience with Java, React, Flutter and Git</li>
-        <li>Strong Foundation in Object-Oriented Programming</li>
-        <li>Active Learner of DSA and Modern Web Development</li>
-      </ul>
+        <div className="about-card">
+          <h3>Career Goals</h3>
+          <ul>
+            <li>Full Stack Developer</li>
+            <li>Build Scalable Applications</li>
+            <li>Contribute to Open Source</li>
+            <li>Explore AI Solutions</li>
+          </ul>
+        </div>
 
-      <br />
+        <div className="about-card">
+          <h3>Beyond Coding</h3>
+          <ul>
+            <li>Stock Market Analysis</li>
+            <li>Learning New Technologies</li>
+            <li>Continuous Self Improvement</li>
+            <li>Real World Projects</li>
+          </ul>
+        </div>
 
-      <h2>🎯 Career Goals</h2>
-      <ul>
-        <li>Become a Full Stack Developer</li>
-        <li>Master Data Structures & Algorithms</li>
-        <li>Build Scalable Software Products</li>
-        <li>Contribute to Open Source Projects</li>
-        <li>Explore AI-Powered Applications</li>
-      </ul>
-
-      <br />
-
-      <h2>📈 Beyond Coding</h2>
-      <ul>
-        <li>Interested in Stock Market Analysis</li>
-        <li>Enjoy Learning New Technologies</li>
-        <li>Believe in Continuous Self-Improvement</li>
-        <li>Prefer Building Practical Real-World Projects</li>
-      </ul>
-
+      </div>
     </div>
   );
 }
