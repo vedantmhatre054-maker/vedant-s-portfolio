@@ -429,23 +429,25 @@ button:hover,
     text-align: center;
     padding: 40px 20px;
   }
-
-  .navbar {
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-  }
-
-  .page {
-    padding: 40px 20px;
-  }
-
-  .hero h1 {
-    font-size: 3rem;
-  }
-
-  .contact-cards {
-    grid-template-columns: 1fr;
-  }
 }
+
+.navbar {
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.page {
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.contact-cards {
+  grid-template-columns: 1fr;
+}
+}
+
 ```
